@@ -18,7 +18,6 @@ def getDistance(point1, point2):
     lat1 = radians(point1[1])
     lon2 = radians(point2[0])
     lat2 = radians(point2[1])
-
     dlon = lon1 - lon2
     dlat = lat1 - lat2
     a = (sin(dlat/2))**2 + cos(lat1) * cos(lat2) * (sin(dlon/2))**2
